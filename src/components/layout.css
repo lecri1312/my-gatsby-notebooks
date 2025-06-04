@@ -222,3 +222,10 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 1000px;
+  font-family: 'Lora', serif;
+}

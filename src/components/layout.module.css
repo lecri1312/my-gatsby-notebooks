@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"');
+
+* {
+  margin : 0;
+  padding : 0;
+  }
+body {
+  background-color: #ddd;
+  font-family : 'Lora', serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 1000px;
+    font-family: 'Lora', serif;
+    align-items: space-between;
+  }
+  .navcolonne {
+    width : 25%;
+  }
+
+  .Title {
+     color: #0a4a52;
+    font-family: "Exo 2", serif; 
+    
+  }
+  .SubTitle{
+    color: rgb(77, 2, 2);
+ /*   font-family: "Exo 2", serif; */
+    font-family:"Genos", serif; 
+ /*   font-style: italic; */
+    font-size: 25px;
+   }
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  .nav-link-item {
+    padding-right: 2rem;
+  }
+  .nav-link-text {
+    color: black;
+  }
+  .td-text {
+    padding : 20px;
+    color : blue;
+  }
+  span {
+    font-family:"Courier New, Courier, monospace";
+
+  }
+  

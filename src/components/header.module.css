@@ -1,0 +1,11 @@
+
+.container {
+    display: flex;
+    align-content: flex-end
+}
+.Navhorizclass {
+    max-width: 1000px;
+    font-family: sans-serif;
+    color: green;
+    margin-left: auto; 
+}
