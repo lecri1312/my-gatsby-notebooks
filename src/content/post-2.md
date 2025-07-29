@@ -8,4 +8,4 @@ domaine: "opt_graphique"
 categorie: "Cat2"
 ---
 
-Welcome to the world of Gatsby! In this post, we will introduce you to the basics of Gatsby and its powerful features.
+2eme billet a rédiger
