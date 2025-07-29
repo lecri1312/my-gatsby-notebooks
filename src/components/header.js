@@ -12,7 +12,7 @@ function Header() {
     <>
     <StaticImage
         alt="Banniere"
-        src="../images/banniere-notebooks.png"
+        src="../images/banniere-notebooks4.png"
         />
 
         <div className='container'>

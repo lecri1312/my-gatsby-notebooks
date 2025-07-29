@@ -8,16 +8,16 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Résumé d'optique géométrique",
-    url: "https://files-stock.e-ressources.net/calepins/Resume_opt_geometrique.pdf",
+    text: "Tutorial",
+    url: "https://www.gatsbyjs.com/docs/tutorial",
     description:
-      "Les notions de base et les formules d'optique géométrique présentées sous forme d'un aide mémoire",
+      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
   },
   {
-    text: "Précis d'optique graphique",
+    text: "Examples",
     url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
     description:
-      "Une version PDF des notions de base d'optique graphique. (non complet -en réalisation).",
+      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
   },
   {
     text: "Plugin Library",
@@ -73,7 +73,7 @@ const IndexPage = () => (
   <Layout>
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/calepin.png"
+        src="../images/example.png"
         loading="eager"
         width={64}
         quality={95}
@@ -82,9 +82,19 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Résumés et ressources <b>by CH!</b>
+        Welcome to <b>Gatsby!</b>
       </h1>
-    
+      <p className={styles.intro}>
+        <b>Example pages:</b>{" "}
+        {samplePageLinks.map((link, i) => (
+          <React.Fragment key={link.url}>
+            <Link to={link.url}>{link.text}</Link>
+            {i !== samplePageLinks.length - 1 && <> · </>}
+          </React.Fragment>
+        ))}
+        <br />
+        Edit <code>src/pages/index.js</code> to update this page.
+      </p>
     </div>
     <ul className={styles.list}>
       {links.map(link => (

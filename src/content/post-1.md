@@ -1,11 +1,14 @@
 ---
-title: "Optimizing Images in Gatsby"
-date: "2023-10-05"
-slug: "my-first-blog-post"
-description: "Explore how to optimize images in your Gatsby project."
-featureImg: ../images/featured/image-2.jpeg
+title: "Qui voit qui ?"
+date: "2025-07-10"
+slug: "post-1"
+description: "Propagation rectiligne de la lumière"
+featureImg: ../images/calepin.png
 domaine: "opt_graphique"
-categorie: "Cat1"
+categorie: "cat1"
+mise_en_avant : "non"
 ---
 
-Images play a crucial role in web development. In this post, we'll dive into how to optimize images in Gatsby using plugins.
+En traçant vos premiers rayons lumineux, déterminez parmi les 4 observateurs A, B, C, et D, qui voit qui !
+* [Exercice](https://files-stock.e-ressources.net/opt_graphique/qui_voit_qui_1_S.pdf)
+* [Corrigé](https://files-stock.e-ressources.net/opt_graphique/qui_voit_qui_1_C.pdf)
