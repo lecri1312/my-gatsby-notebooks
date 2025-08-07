@@ -1,5 +1,5 @@
 ---
-title: "Qui voit qui ?"
+title: "Qui voit qui N° 1 ?"
 date: "2025-07-10"
 slug: "post-1"
 description: "Propagation rectiligne de la lumière"
